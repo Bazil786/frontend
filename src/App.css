@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+textarea {
+  width: 60%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
 }
